@@ -1,0 +1,59 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\renewcommand{\contentsname}{Índex}
+\renewcommand{\chaptername}{Capítol}
+\title{Projecte Intermodular SIMIX2\\Xarxa de l'Institut}
+\author{Joan Ventura \and Lucas Marés \and Aleix Mugica}
+\date{Curs 2026--2027 · SMX2}
+\begin{document}
+\maketitle
+\tableofcontents
+\chapter{Presentació del projecte}
+\section{Nom i lema}
+El projecte s'anomena \textbf{Xarxa de l'Institut}. El lema és: «Un institut amb una xarxa que funciona de veritat... o almenys simulada».
+\section{Problema que volem resoldre}
+Un institut necessita connectar els ordinadors de secretaria, professorat i alumnat, compartir documents i oferir informació a les famílies. Cada grup ha de poder fer la seva feina sense accedir als fitxers que no li corresponen. També cal poder recuperar la informació si hi ha una avaria.
+
+El projecte proposa dissenyar i provar aquesta xarxa en un entorn de pràctiques. Les proves documentades a la sessió 3 s'han fet amb Packet Tracer; no demostren encara el funcionament dels mateixos serveis en un servidor real.
+\section{Persones usuàries}
+\begin{itemize}
+\item Secretaria: treballar amb els equips de gestió del centre.
+\item Professorat: compartir materials i comunicar-se amb el personal.
+\item Alumnat: consultar i descarregar els materials autoritzats.
+\item Famílies: consultar la informació pública del centre al web.
+\item Administració de la xarxa: mantenir els equips, els accessos i les còpies.
+\end{itemize}
+\section{Objectius}
+\begin{enumerate}
+\item Separar les zones de secretaria, professorat, aules i servidors.
+\item Assignar automàticament les adreces als equips i permetre trobar els serveis pel seu nom.
+\item Preparar un espai de fitxers compartits amb permisos diferents per a professorat i alumnat.
+\item Preparar correu intern i manteniment a distància amb accés restringit.
+\item Crear un web informatiu amb VS Code, sense WordPress.
+\item Preparar la connexió sense fils, controlar els accessos i provar la recuperació de còpies.
+\item Guardar les proves i explicar els resultats perquè un altre company els pugui revisar.
+\end{enumerate}
+\section{Abast inicial}
+El disseny de la sessió 2 preveu 17 ordinadors: 3 a secretaria, 4 per al professorat i 10 a les aules. Les quatre zones es distingeixen amb els números 10, 20, 30 i 40. Els servidors tenen una adreça fixa i els equips de les tres primeres zones reben una adreça automàtica.
+
+La primera versió del web oferirà informació pública. Qualsevol funció amb dades personals, com ara les notes de l'alumnat, requerirà una definició i una revisió separades; no s'inclou com a funció ja resolta.
+\section{Equip i repartiment}
+\begin{description}
+\item[Joan Ventura] Xarxa i equips; suport a la documentació.
+\item[Lucas Marés] Serveis de xarxa; suport a la seguretat.
+\item[Aleix Mugica] Web; suport a la documentació.
+\end{description}
+\section{Situació documentada}
+Els Word S0 i S1 recullen la idea, les necessitats, les prioritats i la planificació. El S2 recull el disseny de la xarxa. El S3 aporta captures de l'assignació d'adreces i la resolució de noms a Packet Tracer, i una reunió datada el 29 de setembre de 2026.
+
+Aquests documents descriuen sessions de setembre. La pauta de la primera entrega fixa el Sprint 1 del 6 al 20 d'octubre de 2026. El seguiment setmanal i les reunions finals d'aquest període s'han d'afegir amb les dates i els resultats reals. No es donen per fets en aquesta memòria.
+\section{Fonts i seguiment}
+Aquesta versió inicial s'ha redactat a partir dels quatre Word aportats per l'equip i de la presentació del repositori. Els originals es conserven a la carpeta docs.
+
+Repositori: \url{https://github.com/joanvent/projecteintermodular}
+
+Tauler: \url{https://github.com/users/joanvent/projects/2}
+\end{document}
