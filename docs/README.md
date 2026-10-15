@@ -1,42 +1,46 @@
 # Documents del projecte
 
-Word originals de les sessions 0, 1, 2 i 3 aportats per l’equip.
+La entrega es farà en Word, tal com ha indicat el professor. Els quatre documents són a aquesta carpeta:
 
-- S0: idea del projecte i necessitats dels usuaris.
-- S1: requisits, prioritats, tasques i reunió inicial.
-- S2: disseny de la xarxa.
-- S3: configuració i proves de DHCP i DNS a Packet Tracer.
+- S0: la idea del projecte i qui el farà servir.
+- S1: què volem fer, què és més important i com ens repartim la feina.
+- S2: el dibuix i les connexions de la xarxa.
+- S3: les proves perquè els ordinadors rebin una adreça i trobin els serveis pel seu nom.
 
-## Responsabilitats
+## Qui fa cada part
 
-- Joan Ventura: xarxa i equips; suport a la documentació.
-- Lucas Marés: serveis de xarxa; suport a la seguretat.
-- Aleix Mugica: web; suport a la documentació.
+- Joan Ventura: xarxa i ordinadors; ajuda amb els documents.
+- Lucas Marés: serveis de xarxa; ajuda amb la seguretat.
+- Aleix Mugica: web; ajuda amb els documents.
 
-## Quan es dona una tasca per acabada
+## Quan acabem una tasca
 
-1. S’han fet els passos indicats a la tasca.
-2. S’ha comprovat que funciona i s’han guardat les proves.
-3. La documentació explica els canvis.
-4. Un altre company ha revisat el treball.
-5. Els canvis importants es proposen i revisen abans d’afegir-los a la versió principal.
-6. La tasca té responsable, etiqueta i sprint, i es mou a Hecho quan tot està comprovat.
+1. Hem fet els passos que hi diu.
+2. Hem comprovat que funciona i hem guardat captures o altres proves.
+3. Hem explicat els canvis al Word.
+4. Un altre company ho ha revisat.
+5. Abans d'afegir un canvi important a la versió principal, el proposem perquè un company l'aprovi.
+6. La tasca té una persona encarregada, una etiqueta i una etapa de treball. Quan està revisada, la posem a Hecho.
 
-## Organització
+## Com ens organitzem
 
-[Tauler de treball](https://github.com/users/joanvent/projects/2) · [Tasques](https://github.com/joanvent/projecteintermodular/issues) · [Sprints](https://github.com/joanvent/projecteintermodular/milestones)
+[Tauler de tasques](https://github.com/users/joanvent/projects/2) · [Llista de tasques](https://github.com/joanvent/projecteintermodular/issues) · [Etapes de treball](https://github.com/joanvent/projecteintermodular/milestones)
 
-Cada membre treballa amb el seu compte i la seva branca: joan, lucas o aleix. La web es farà amb VS Code, sense WordPress.
+Cada persona treballa amb el seu compte i amb la seva versió de treball: joan, lucas o aleix. La web es farà amb VS Code.
 
-## Punts pendents de la primera entrega
+- Sprint 1 és la primera etapa: del 6 al 20 d'octubre de 2026.
+- Sprint 2 és la segona etapa i encara no té data d'entrega.
+- Backlog vol dir tasques pendents d'escollir.
+- Planning és la reunió per repartir la feina.
+- Review és la reunió per ensenyar els resultats.
+- Retrospectiva és la reunió per decidir què podem millorar.
 
-Les sessions dels Word expliquen el treball de setembre. No equivalen automàticament al Sprint 1 de la pauta inicial, del 6 al 20 d’octubre de 2026.
+## Què falta per a la primera entrega
 
-- Confirmar el compte del professor i el seu accés.
-- Confirmar la data final del Sprint 2.
-- Assignar a cada sprint les tasques que l’equip decideixi fer.
-- Afegir el seguiment setmanal del sprint actual amb les dates i els avenços reals.
-- Fer i documentar les reunions finals de resultats i millores.
-- Preparar la memòria en LaTeX i el PDF demanats a la pauta inicial, o confirmar amb el professor que accepta els Word en lloc d’això.
+- Saber el nom de compte del professor a GitHub i comprovar que hi pot entrar.
+- Escollir les tasques de cada etapa.
+- Apuntar cada setmana què hem fet, què falta i quins problemes tenim.
+- Fer les reunions finals i escriure les decisions.
+- Completar i revisar els Word amb les explicacions i les proves del treball.
 
-Els Word es conserven tal com els ha aportat l’equip.
+Els Word S0 a S3 expliquen les sessions de setembre. Cal afegir el treball d'octubre amb les dates reals.
