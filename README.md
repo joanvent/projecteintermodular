@@ -44,9 +44,3 @@ Sprint 3. DHCP i DNS: completat.
 Sprint 4. FTP i correu: en procés.
 Sprint 5. Wi-Fi i NAT: pendent.
 Sprints 6 a 11: pendents.
-
-Contacte
-
-Si tens qualsevol dubte sobre el projecte, pots contactar amb nosaltres a través de GitHub.
-
-Fet amb moltes hores i una mica de cafè.
